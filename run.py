@@ -49,7 +49,7 @@ class CloudFlareDNS(object):
 
 
 def error(msg):
-    print(msg)
+    print >> sys.stderr, msg
     sys.exit(1)
 
 
