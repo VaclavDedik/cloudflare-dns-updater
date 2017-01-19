@@ -1,1 +1,1 @@
-5 * * * * ./run.py -k <api-key> -r <zone-id> -d <domain-name> -e <email>
+*/5 * * * * <path-to-this-repo>/run.py -k <api-key> -r <zone-id> -d <domain-name> -e <email>
